@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+
+    <div class="container">
+      <div class="navbar">
+        {% unless page.layout == 'front' %}
+          <ul>
+            {% for link in site.navigation %}
+              {% assign current = nil %}
+              {% if page.url == link.url or page.layout == link.layout %}
+                {% assign current = 'active' %}
+              {% endif %}
+
+              <li class="{{ current }}">
+                <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endunless %}
+      </div>
+      <div class=main>
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+
+  </body>
+
+</html>
