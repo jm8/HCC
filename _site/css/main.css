@@ -48,10 +48,21 @@ html {
   margin: 0px;
   margin-top: 60px;
   padding: 10px;
-  color: white; }
+  color: white;
+  font-family: 'Share Tech'; }
+
+a {
+  color: #88AAEA; }
 
 h2 {
   text-size: 30px;
   font-variant: bold;
   text-align: center;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Orbitron'; }
+
+h6 {
+  text-align: left;
+  font-size: 21px;
+  font-variant: bold;
+  display: inline; }
