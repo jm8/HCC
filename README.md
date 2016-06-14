@@ -19,6 +19,6 @@ To add another page, create a file named <pre>titlelowercasenospaces.html</pre> 
 layout: default
 ---</pre>
 Then inside _config.yml add, in the navigation section, <pre>
-- text: Title in Title Case with Spaces
+\- text: Title in Title Case with Spaces
   url: /titlelowercasenospaces.html
 </pre>
