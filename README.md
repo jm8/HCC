@@ -1,5 +1,5 @@
 <h2>Heritage CC Website</h2>
-After cloning, you'll need to install <a href=http://jekyllrb.com>Jekyll</a>.
+Before cloning, you'll need to install <a href=http://jekyllrb.com>Jekyll</a>.
 <pre>  gem install jekyll</pre>
 Then clone the repository and CD inside. Now run,
 <pre>  jekyll serve --watch</pre>
